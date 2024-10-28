@@ -4,7 +4,7 @@ from hashlib import sha256
 # pinocchio.py
 class PinocchioZKP:
   def __init__(self, secret):
-  #   self.secret = secret
+    self.secret = secret
   #   self.public_key = self.generate_public_key()
 
   # def generate_public_key(self):
