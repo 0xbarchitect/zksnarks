@@ -17,7 +17,7 @@ class PinocchioZKP:
     proof = sha256((str(self.secret) + str(random_factor)).encode()).hexdigest()
     return proof, random_factor
 
-  # def verify_proof(self, proof, random_factor):
+  def verify_proof(self, proof, random_factor):
   #   # Simulate proof verification
   #   expected_proof = sha256((str(self.secret) + str(random_factor)).encode()).hexdigest()
   #   return proof == expected_proof
