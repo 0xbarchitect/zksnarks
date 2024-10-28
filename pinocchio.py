@@ -11,7 +11,7 @@ class PinocchioZKP:
     # Simulate public key generation
     return sha256(str(self.secret).encode()).hexdigest()
 
-  # def generate_proof(self):
+  def generate_proof(self):
   #   # Simulate proof generation
   #   random_factor = random.randint(1, 100)
   #   proof = sha256((str(self.secret) + str(random_factor)).encode()).hexdigest()
