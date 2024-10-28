@@ -8,8 +8,8 @@ class PinocchioZKP:
     self.public_key = self.generate_public_key()
 
   def generate_public_key(self):
-  #   # Simulate public key generation
-  #   return sha256(str(self.secret).encode()).hexdigest()
+    # Simulate public key generation
+    return sha256(str(self.secret).encode()).hexdigest()
 
   # def generate_proof(self):
   #   # Simulate proof generation
