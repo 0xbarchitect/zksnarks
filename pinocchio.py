@@ -15,7 +15,7 @@ class PinocchioZKP:
     # Simulate proof generation
     random_factor = random.randint(1, 100)
     proof = sha256((str(self.secret) + str(random_factor)).encode()).hexdigest()
-  #   return proof, random_factor
+    return proof, random_factor
 
   # def verify_proof(self, proof, random_factor):
   #   # Simulate proof verification
