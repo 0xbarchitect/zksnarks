@@ -14,7 +14,7 @@ class Groth16Params:
 
 # Example proving key and verification key
 class Groth16Keys:
-#   def __init__(self, params):
+  def __init__(self, params):
 #     self.pk = (params.alpha, params.beta, params.gamma, params.delta, params.h)
 #     self.vk = (params.g1, params.g2, params.alpha, params.beta, params.gamma, params.delta)
 
