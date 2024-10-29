@@ -32,12 +32,12 @@ def verify_proof(params, keys, proof, public_input):
   rhs = pairing(keys.vk[2], keys.vk[3])
   return lhs == rhs
 
-# # Example usage
-# params = Groth16Params()
-# keys = Groth16Keys(params)
-# witness = 7
-# proof = generate_proof(params, keys, witness)
-# public_input = 7
+# Example usage
+params = Groth16Params()
+keys = Groth16Keys(params)
+witness = 7
+proof = generate_proof(params, keys, witness)
+public_input = 7
 
-# is_valid = verify_proof(params, keys, proof, public_input)
-# print(f"Proof is valid: {is_valid}")
+is_valid = verify_proof(params, keys, proof, public_input)
+print(f"Proof is valid: {is_valid}")
