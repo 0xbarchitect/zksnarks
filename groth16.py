@@ -6,7 +6,7 @@ class Groth16Params:
   def __init__(self):
     self.g1 = G1
     self.g2 = G2
-#     self.h = multiply(G1, 2)
+    self.h = multiply(G1, 2)
 #     self.alpha = multiply(G1, 3)
 #     self.beta = multiply(G2, 4)
 #     self.gamma = multiply(G2, 5)
