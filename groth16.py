@@ -10,7 +10,7 @@ class Groth16Params:
     self.alpha = multiply(G1, 3)
     self.beta = multiply(G2, 4)
     self.gamma = multiply(G2, 5)
-#     self.delta = multiply(G2, 6)
+    self.delta = multiply(G2, 6)
 
 # # Example proving key and verification key
 # class Groth16Keys:
