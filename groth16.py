@@ -4,8 +4,8 @@ from py_ecc.bn128 import FQ, FQ2, FQ12, G1, G2, add, multiply, neg, pairing
 # Example parameters for Groth16
 class Groth16Params:
   def __init__(self):
-#     self.g1 = G1
-#     self.g2 = G2
+    self.g1 = G1
+    self.g2 = G2
 #     self.h = multiply(G1, 2)
 #     self.alpha = multiply(G1, 3)
 #     self.beta = multiply(G2, 4)
