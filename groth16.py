@@ -12,8 +12,8 @@ class Groth16Params:
     self.gamma = multiply(G2, 5)
     self.delta = multiply(G2, 6)
 
-# # Example proving key and verification key
-# class Groth16Keys:
+# Example proving key and verification key
+class Groth16Keys:
 #   def __init__(self, params):
 #     self.pk = (params.alpha, params.beta, params.gamma, params.delta, params.h)
 #     self.vk = (params.g1, params.g2, params.alpha, params.beta, params.gamma, params.delta)
