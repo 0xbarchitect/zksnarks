@@ -37,7 +37,7 @@ params = Groth16Params()
 keys = Groth16Keys(params)
 witness = 7
 proof = generate_proof(params, keys, witness)
-# public_input = 7
+public_input = 7
 
 # is_valid = verify_proof(params, keys, proof, public_input)
 # print(f"Proof is valid: {is_valid}")
