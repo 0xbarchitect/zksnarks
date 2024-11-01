@@ -18,8 +18,8 @@ class Groth16Keys:
     self.pk = (params.alpha, params.beta, params.gamma, params.delta, params.h)
     self.vk = (params.g1, params.g2, params.alpha, params.beta, params.gamma, params.delta)
 
-# # Example proof generation
-# def generate_proof(params, keys, witness):
+# Example proof generation
+def generate_proof(params, keys, witness):
 #   a = add(params.alpha, multiply(params.h, witness))
 #   b = params.beta
 #   c = multiply(params.h, witness)
