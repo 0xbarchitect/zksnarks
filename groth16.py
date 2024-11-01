@@ -25,8 +25,8 @@ def generate_proof(params, keys, witness):
   c = multiply(params.h, witness)
   return (a, b, c)
 
-# # Example proof verification
-# def verify_proof(params, keys, proof, public_input):
+# Example proof verification
+def verify_proof(params, keys, proof, public_input):
 #   a, b, c = proof
 #   lhs = pairing(a, keys.vk[1])
 #   rhs = pairing(keys.vk[2], keys.vk[3])
