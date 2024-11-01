@@ -20,8 +20,8 @@ class Groth16Keys:
 
 # Example proof generation
 def generate_proof(params, keys, witness):
-#   a = add(params.alpha, multiply(params.h, witness))
-#   b = params.beta
+  a = add(params.alpha, multiply(params.h, witness))
+  b = params.beta
 #   c = multiply(params.h, witness)
 #   return (a, b, c)
 
