@@ -32,8 +32,8 @@ def verify_proof(params, keys, proof, public_input):
   rhs = pairing(keys.vk[2], keys.vk[3])
   return lhs == rhs
 
-# # Example usage
-# params = Groth16Params()
+# Example usage
+params = Groth16Params()
 # keys = Groth16Keys(params)
 # witness = 7
 # proof = generate_proof(params, keys, witness)
