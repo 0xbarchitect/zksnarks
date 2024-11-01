@@ -22,8 +22,8 @@ class Groth16Keys:
 def generate_proof(params, keys, witness):
   a = add(params.alpha, multiply(params.h, witness))
   b = params.beta
-#   c = multiply(params.h, witness)
-#   return (a, b, c)
+  c = multiply(params.h, witness)
+  return (a, b, c)
 
 # # Example proof verification
 # def verify_proof(params, keys, proof, public_input):
