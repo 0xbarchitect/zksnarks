@@ -27,10 +27,10 @@ def generate_proof(params, keys, witness):
 
 # Example proof verification
 def verify_proof(params, keys, proof, public_input):
-#   a, b, c = proof
-#   lhs = pairing(a, keys.vk[1])
-#   rhs = pairing(keys.vk[2], keys.vk[3])
-#   return lhs == rhs
+  a, b, c = proof
+  lhs = pairing(a, keys.vk[1])
+  rhs = pairing(keys.vk[2], keys.vk[3])
+  return lhs == rhs
 
 # # Example usage
 # params = Groth16Params()
