@@ -40,4 +40,4 @@ proof = generate_proof(params, keys, witness)
 public_input = 7
 
 is_valid = verify_proof(params, keys, proof, public_input)
-# print(f"Proof is valid: {is_valid}")
+print(f"Proof is valid: {is_valid}")
