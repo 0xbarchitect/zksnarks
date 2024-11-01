@@ -34,7 +34,7 @@ def verify_proof(params, keys, proof, public_input):
 
 # Example usage
 params = Groth16Params()
-# keys = Groth16Keys(params)
+keys = Groth16Keys(params)
 # witness = 7
 # proof = generate_proof(params, keys, witness)
 # public_input = 7
